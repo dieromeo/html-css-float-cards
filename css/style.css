@@ -41,6 +41,7 @@ h1 {
 h1+p {
     font-family: 'Fredoka', sans-serif;
     padding-top: 60px;
+
 }
 
 /*
@@ -49,8 +50,26 @@ MAIN
 *********
 */
 
+.box {
+    margin-top: 50px;
+}
+
+.cards {
+    background-color: #0f0e17;
+    color: #fff;
+    width: calc(100% /3 - 20px);
+    float: left;
+    margin: 10px
+}
+
 /*
 *********
 COMMON
 *********
 */
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
