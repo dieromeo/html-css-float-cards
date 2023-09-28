@@ -19,6 +19,7 @@ CONTAINER
 .container {
     width: 1100px;
     margin: 0 auto;
+    font-family: 'Fredoka', sans-serif;
 }
 
 /*
@@ -34,12 +35,12 @@ header {
 }
 
 h1 {
-    font-family: 'Fredoka', sans-serif;
+
     color: #e53170;
 }
 
 h1+p {
-    font-family: 'Fredoka', sans-serif;
+
     padding-top: 60px;
 
 }
@@ -60,6 +61,21 @@ MAIN
     width: calc(100% /3 - 20px);
     float: left;
     margin: 10px
+}
+
+.info {
+    float: left;
+    width: calc(100% - 100px);
+}
+
+.foto {
+    width: 100px;
+    float: left;
+}
+
+.foto img {
+    width: 100%;
+    display: block;
 }
 
 /*
